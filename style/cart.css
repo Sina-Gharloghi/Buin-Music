@@ -1,0 +1,41 @@
+th
+{
+    color: azure;
+}
+
+.title
+{
+    color: azure;
+    text-align: center;
+}
+
+.check
+{
+    color: azure;
+    font-size: 16px;
+    text-align: right;
+}
+
+.price
+{
+    color: azure;
+    font-size: 16px;
+    text-align: center;
+}
+
+.num
+{
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 30px;
+    margin-top: -3%;
+    background-color: rgb(255, 85, 26);
+    text-align: center;
+}
+
+#pay
+{
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 15%;
+}

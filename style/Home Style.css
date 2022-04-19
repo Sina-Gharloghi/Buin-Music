@@ -1,0 +1,269 @@
+#body
+{
+    background-color: rgb(13, 20, 25);
+    height: 100%;
+    font-family: b koodak;
+}
+
+/*#sides
+{
+    height: 11.5%;
+    background-color: rgb(19, 28, 35);
+}
+#sidesbt 
+{
+    height: 35%;
+    margin-top: 714%;
+    background-color: rgb(19, 28, 35);
+}*/
+
+#main
+{
+    height: 100%;
+}
+
+#header 
+{
+    background-color: rgb(19, 28, 35);
+    height: 7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#headerlinks
+{
+    height: 70%;
+    width: 2.8%;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+#searchbtn
+{
+    height: 45%;
+    width: 2%;
+    margin-top: 5px;
+    margin-left: 9%;
+}
+
+#search
+{
+    height: 70%;
+    margin-top: 8px;
+    font-size: 18px;
+    margin-left: 1%;
+    border: 0px;
+    border-radius: 10px;
+    width: 38%;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#player
+{
+    margin-left: 9%;
+    width: 2%;
+    height: 70%;
+}
+
+#logo
+{
+    width: 8%;
+    height: 80%;
+    margin-left: 7%;
+}
+
+#gap
+{
+    height: 1%;
+    background-color: rgb(13, 20, 25);
+}
+
+#menu
+{
+    height: 3.5%;
+    background-color: rgb(19, 28, 35);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#bar 
+{
+    background-color: rgb(19, 28, 35);
+    width: 100%;
+}
+
+.h4
+{
+    margin-left: 50%;
+    font-family: b koodak;
+    color: rgb(160, 160, 160);
+}
+.h4:hover {color: rgb(221, 221, 221);
+    text-decoration: none;}
+
+#content
+{
+    height: 95%;
+}
+
+#footer
+{
+    height: 35%;
+    background-color: rgb(19, 28, 35);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px; 
+}
+
+#footeropt
+{
+    text-align: right;
+}
+
+#options
+{
+    color: rgb(160, 160, 160);
+}
+
+#options:hover{color: rgb(255, 85, 26);
+    text-decoration: none;}
+
+.footertext
+{
+    color: rgb(221, 221, 221);
+    font-size: 80%;
+}
+
+#slider
+{
+    position: relative;
+    margin-top: 2%;
+}
+
+.text{
+    position: absolute;
+    color: rgb(221, 221, 221);
+    bottom: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+
+.perv, .next
+{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.perv {left: 5px;}
+.next {right: 5px;}
+
+.slide
+{
+    display: none;
+    animation: fade 2s;
+}
+
+.slide.active
+{
+    display: block;
+}
+
+.sliderpic
+{
+    width: 90%; 
+    margin-left: 5%;
+    border-radius: 30px;
+}
+
+.dot
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 0.5%;
+}
+.dot.active
+{
+    background-color: rgb(255, 85, 26);
+}
+
+#dots
+{
+    text-align: center;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.footerpic
+{
+    height: 20%;
+    width: 20%;
+    margin-top: 4%;
+}
+
+.social
+{
+    height: 7%;
+    width: 7%;
+    left: 0%;
+    margin-left: 2%;
+}
+
+.pic1, .pic2
+{
+    height: 110%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.alb1
+{
+    margin-left: 15%;
+    position: absolute;
+    font-family: b koodak;
+    color: rgb(160, 160, 160);
+    margin-top: 10%;
+}
+.alb1:hover {color: rgb(221, 221, 221);
+    text-decoration: none;}
+
+.alb2
+{
+    margin-left: 15%;
+    position: absolute;
+    font-family: b koodak;
+    color: rgb(160, 160, 160);
+    margin-top: 10%;
+}
+.alb2:hover {color: rgb(221, 221, 221);
+    text-decoration: none;}
+
+.best1
+{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    top: 60%;
+    transform: translate(0,-50%);
+    right: 25%;
+}
+.best2
+{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    top: 60%;
+    transform: translate(0,-50%);
+}

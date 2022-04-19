@@ -1,0 +1,74 @@
+#prdlist
+{
+    height: 100%;
+}
+
+#marg
+{
+    height: 10%;
+}
+
+.picture1
+{
+    height: 100%;
+    width: 65%;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+.picture2
+{
+    height: 100%;
+    width: 65%;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+
+.name1
+{
+    margin-left: 35%;
+    position: absolute;
+    font-family: b koodak;
+    color: rgb(160, 160, 160);
+    margin-top: 5%;
+}
+.name1:hover {color: rgb(221, 221, 221);
+    text-decoration: none;}
+
+.name2
+{
+    margin-left: 35%;
+    position: absolute;
+    font-family: b koodak;
+    color: rgb(160, 160, 160);
+    margin-top: 5%;
+}
+.name2:hover {color: rgb(221, 221, 221);
+    text-decoration: none;}
+
+.page1, .page2
+{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.page1 {right: 50%;}
+.page2 {left: 50%;}
+
+.card
+{
+    margin-top: 10%;
+    background-color: rgb(19, 28, 35);
+}
+.card-title{
+    float: right;
+    color: rgb(221, 221, 221);
+}
+
+.btn
+{
+    background-color: rgb(255, 85, 26);
+}
